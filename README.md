@@ -32,8 +32,8 @@ This project uses the principle of **Electromagnetic Induction** — when curren
 
 <!-- Schematic based on hand-drawn design -->
 
-![Web-Shooter Diagram](./diagram.jpeg) !NOT UPDATED
-
+![Web-Shooter Diagram]() diagram.jpeg
+<img src="diagram.jpeg" alt="Web-Shooter prototype" width="400" height="430">
 ---
 
 ## 🔌 Basic Principle — Electromagnetic Induction
