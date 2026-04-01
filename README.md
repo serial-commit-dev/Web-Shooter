@@ -32,7 +32,7 @@ This project uses the principle of **Electromagnetic Induction** — when curren
 
 <!-- Schematic based on hand-drawn design -->
 
-![Web-Shooter Diagram](./diagram.svg) !NOT UPDATED
+![Web-Shooter Diagram](./diagram.jpeg) !NOT UPDATED
 
 ---
 
