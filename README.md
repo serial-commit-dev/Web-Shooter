@@ -53,5 +53,4 @@ Written in **Arduino-style C++** compiled and flashed via the **Arduino IDE with
 ---
 
 *Designed and built by [serial-commit-dev](https://github.com/serial-commit-dev)*  
-*Concept inspired by a long-standing interest in electromagnetic induction — finally put to paper after SSLC. 🎓*
-*Idea Inspired from the movie: Spiderman: Into the Spider Verse*
+*Concept inspired from electromagnetic induction  -Idea Inspired from the movie: Spiderman: Into the Spider Verse*
