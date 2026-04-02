@@ -30,6 +30,4 @@ void loop() {
   digitalWrite(third_solenoid,true);
   }
   
-
-
 }
