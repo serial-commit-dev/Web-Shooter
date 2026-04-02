@@ -18,7 +18,9 @@ void setup() {
 }
 
 void loop() {
-  //turning on the first solenoid
+  
+  if(button == HIGH) {
+   //turning on the first solenoid
   digitalWrite(first_solenoid,true);
   delay(5000);
   //second solenoid 
@@ -26,13 +28,6 @@ void loop() {
   delay(5000);
   //third solenoid
   digitalWrite(third_solenoid,true);
-
-  if(button == HIGH){
-    digitalWrite(motor,true);
-    delay(60000); 
-    digitalWrite(motor,false);
-  }else{
-    digitalWrite(motor,false);
   }
   
 
