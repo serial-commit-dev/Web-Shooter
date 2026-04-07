@@ -1,40 +1,34 @@
 const int button = 7;
-const int motor = 11;
-const int first_solenoid = 8;
-const int second_solenoid = 9;
-const int third_solenoid = 10;
+const int motor = 8;
+const int transistorGate = 9;
+
 
 void setup() {
   Serial.begin(9600);
-  pinMode(11,OUTPUT); // Motor Pin
-
-  pinMode(8,OUTPUT); // solenoid-1
-  pinMode(9,OUTPUT); // solenoid-2
-  pinMode(10,OUTPUT); // solenoid-3
 
   pinMode(7,INPUT); // button(trigger)
+  pinMode(8,OUTPUT); // Motor Pin
+  pinMode(9,OUTPUT); //Gate pin 
 
-
+  digitalWrite(transistorGate,LOW);
+  digitalWrite(motor,LOW);
 }
 
 void loop() {
-  //turning on the first solenoid
-  digitalWrite(first_solenoid,true);
-  delay(5000);
-  //second solenoid 
-  digitalWrite(second_solenoid,true);
-  delay(5000);
-  //third solenoid
-  digitalWrite(third_solenoid,true);
-
-  if(button == HIGH){
-    digitalWrite(motor,true);
-    delay(60000); 
-    digitalWrite(motor,false);
+  
+  if(digitalRead(button) == HIGH){
+    
+    digitalWrite(transistorGate,HIGH);
+    delay(20000); //duration set for projectile to experience EMF
+    digitalWrite(motor,HIGH); //enables the projectile to move forward
+    delay(10000);
+    digitalWrite(transistorGate,LOW); 
+    delay(1000); 
+    digitalWrite(motor,LOW); 
+    
   }else{
-    digitalWrite(motor,false);
+    digitalWrite(transistorGate,LOW);
+    digitalWrite(motor,LOW);
   }
   
-
-
 }
