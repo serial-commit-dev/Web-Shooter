@@ -25,6 +25,8 @@ This project uses the principle of **Electromagnetic Induction** — when curren
 | **Trigger Button** | GPIO input — initiates the launch sequence |
 | **Cardboard/Box Chassis** | Main body housing all components |
 | **motor axle** | Used to un-wind the thread to enable the projectile to move forward (since the length of the thread is the only limit in exiting the device)|
+|**Transistor(MOSFET)**|Used to switch high current to the solenoid |
+|**Flyback diode**| used to redirect the voltage spike back to solenoid, formed after ceasing the flow of current to the solenoid|
 
 ---
 
