@@ -1,4 +1,4 @@
-const int button = 7;
+const int buttonState = 7;
 const int motor = 8;
 const int transistorGate = 9;
 
@@ -16,7 +16,7 @@ void setup() {
 
 void loop() {
   
-  if(digitalRead(button) == HIGH){
+  if(digitalRead(buttonState) == LOW){
     
     digitalWrite(transistorGate,HIGH);
     delay(20000); //duration set for projectile to experience EMF
