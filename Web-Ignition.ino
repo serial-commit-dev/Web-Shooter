@@ -20,10 +20,10 @@ void setup() {
 void loop() {
   //turning on the first solenoid
   digitalWrite(first_solenoid,true);
-  delay(5000);
+  delay(150);
   //second solenoid 
   digitalWrite(second_solenoid,true);
-  delay(5000);
+  delay(150);
   //third solenoid
   digitalWrite(third_solenoid,true);
 
