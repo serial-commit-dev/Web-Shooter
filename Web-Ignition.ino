@@ -19,20 +19,20 @@ void setup() {
 
 void loop() {
   //turning on the first solenoid
-  digitalWrite(first_solenoid,true);
+  digitalWrite(first_solenoid, HIGH);
   delay(150);
   //second solenoid 
-  digitalWrite(second_solenoid,true);
+  digitalWrite(second_solenoid, HIGH);
   delay(150);
   //third solenoid
-  digitalWrite(third_solenoid,true);
+  digitalWrite(third_solenoid, HIGH);
 
   if(digitalRead(button) == HIGH){
-    digitalWrite(motor,true);
+    digitalWrite(motor,HIGH);
     delay(60000); 
-    digitalWrite(motor,false);
+    digitalWrite(motor, LOW);
   }else{
-    digitalWrite(motor,false);
+    digitalWrite(motor, LOW);
   }
   
 
