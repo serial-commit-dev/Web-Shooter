@@ -27,7 +27,7 @@ void loop() {
   //third solenoid
   digitalWrite(third_solenoid,true);
 
-  if(button == HIGH){
+  if(digitalRead(button) == HIGH){
     digitalWrite(motor,true);
     delay(60000); 
     digitalWrite(motor,false);
