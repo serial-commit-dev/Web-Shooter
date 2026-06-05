@@ -28,7 +28,7 @@ The internal architecture maps out how the central spooling core, active electro
 The functional layout details the linear alignment of the fixed rolling barrel, the trailing thread path, and the path of inertia through the forward electromagnetic coils.
 
 <div align="center">
-  <img src="v2-blueprint.jpeg" alt="Web-Shooter Component Integration Map" width="550">
+  <img src="v2-labelled-diagram.png" alt="Web-Shooter Component Integration Map" width="550">
   <p><i>Component Layout and Direction of Inertia Blueprint</i></p>
 </div>
 
