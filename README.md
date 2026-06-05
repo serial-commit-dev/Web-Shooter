@@ -44,7 +44,7 @@ To safely handle the high current required by the induction coils without damagi
 This is how you should wire a solenoid: The diagram below provides a clear visualization of the high-current section, highlighting how to correctly route the power source using the **MOSFET** as a high-speed electronic switch (connecting Gate to the digital pin, Drain to the solenoid low-side, and Source to common Ground), along with the specific placement of the **Flyback Diode** parallel across the solenoid terminals to neutralize induction voltage spikes.
 
 <div align="center">
-  <img src="solenoid-wiring.jpeg" alt="Web-Shooter Solenoid Wiring Detail" width="500">
+  <img src="Solenoid-wiring.jpeg" alt="Web-Shooter Solenoid Wiring Detail" width="500">
   <p><i>Official Solenoid and MOSFET Wiring Schematic</i></p>
 </div>
 
